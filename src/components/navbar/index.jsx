@@ -18,7 +18,7 @@ export default function NavbarUser() {
       <Navbar className="navbar-container">
         <Container fluid>
           <Navbar.Brand href="#">
-            <img src={LogoOpinia} alt="Brand Opinia" height={50} />
+            <img src={LogoOpinia} alt="Brand Opinia" height={45} />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Form className="d-flex search-navbar justify-content-center">

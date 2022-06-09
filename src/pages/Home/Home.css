@@ -13,11 +13,12 @@
 
 .status-user{
     position: absolute;
-    width: 300px;
+    width: 340px;
     height: 75px;
     background-color: #FFFFFFB2;
     border-radius: 5px;
     top: -110px;
+    font-weight: 500;
 }
 
 .status-user span{
