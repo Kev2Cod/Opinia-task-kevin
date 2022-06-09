@@ -5,7 +5,8 @@ Project ini dibangun dengan:
 - Bootstrap
 - React Bootstrap
 
-Link demo <a href="https://opinia-task-kevin.vercel.app/">Link Demo Opinia Frontend</a>
+Link Demo Opinia Frontend
+<a href="https://opinia-task-kevin.vercel.app/" target="blank">https://opinia-task-kevin.vercel.app/</a>
 
 # Getting Started with Create React App
 
