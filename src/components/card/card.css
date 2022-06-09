@@ -1,0 +1,65 @@
+.pointer{
+    cursor: pointer;
+}
+.card-post{
+    background-color: white;
+    border-radius: 5px;
+    padding:20px 0 ;
+}
+
+.post-profile{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    border: 2px solid #C4C4C4 ;
+}
+
+.post-img{
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.form-comment{
+    position: relative;
+}
+
+.input-comment{
+    height: 50px;
+    width: 100%;
+    border: 3px solid #EFEFEF;
+    border-radius: 30px;
+    padding-left: 55px;
+    padding-right: 55px;
+    padding-bottom: 2px;
+}
+
+.btn-send{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    right: 40px;
+    bottom: 13px;
+    cursor: pointer;
+}
+
+hr{
+    border-top: 3px solid #b6b6b6;
+}
+
+
+.profile-comment{
+    position: absolute;
+    left: 33px;
+    cursor: pointer;
+}
+
+.img-link-profile{
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+}

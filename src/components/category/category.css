@@ -1,0 +1,76 @@
+.radio-button{
+    padding: 10px;
+    background-color: white;
+    width: 100%;
+    min-height: 300px;
+    border-radius: 8px;
+}
+
+.radio-button input{
+    display: none;
+}
+
+/* Switch */
+.switch-field{
+    display: grid;
+}
+
+.switch-menu{
+    width: 100%;
+    height: 60px;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
+label:hover{
+    background-color: #05688E1A;
+}
+
+label:hover span{
+    color: #05B1A1;
+    font-weight: bold;
+}
+
+label:hover > .icon{
+    background-color:  #05B1A1 !important;
+    color: white;
+    border: none;
+}
+
+.switch-field input:checked + label {
+	background-color: #05688E1A;
+}
+
+.switch-field input:checked + label > .icon{
+	background-color: #05B1A1;
+    color: white;
+    border: none;
+}
+
+.switch-field span{
+    margin-left: 10px;
+}
+
+.switch-field span:hover{
+    color:#A3A3A3
+}
+
+.switch-field .icon{
+    width: 25px;
+    height: 25px;
+    padding: 10px;
+    border: 1px solid #A3A3A3;
+    border-radius: 5px;
+    color:#A3A3A3
+
+}
+
+.switch-field img:hover{
+    background-color: #05B1A1;
+}
+

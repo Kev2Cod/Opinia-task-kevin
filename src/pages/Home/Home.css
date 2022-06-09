@@ -1,0 +1,46 @@
+.img-hero{
+    width: 100%;
+}
+
+.img-profile{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: cover;
+    border: 10px solid #FAFAFB;
+}
+
+.status-user{
+    position: absolute;
+    width: 300px;
+    height: 75px;
+    background-color: #FFFFFFB2;
+    border-radius: 5px;
+    top: -110px;
+}
+
+.status-user span{
+    text-align: center;
+    display: block;
+}
+
+.btn-hero{
+    position: absolute;
+    right: 20px;
+    top: -75px;
+    cursor: pointer;
+}
+
+.profile-camera-icon{
+    position: absolute;
+    bottom: 0;
+    right: 22px;
+}
+
+.container-profile{
+    position: absolute;
+    top: -112px;
+    left: 25px;
+
+}
