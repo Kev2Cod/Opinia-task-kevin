@@ -33,7 +33,7 @@ label:hover{
 
 label:hover span{
     color: #05B1A1;
-    font-weight: bold;
+    font-weight: 500;
 }
 
 label:hover > .icon{
@@ -44,6 +44,10 @@ label:hover > .icon{
 
 .switch-field input:checked + label {
 	background-color: #05688E1A;
+    font-weight: 500;
+    color: #05B1A1;
+
+
 }
 
 .switch-field input:checked + label > .icon{

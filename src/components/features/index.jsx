@@ -29,7 +29,7 @@ export default function Features() {
 
   const handleScroll = () => {
     const position = window.pageYOffset;
-    if (position > 385) {
+    if (position > 300) {
       setShow(true);
     } else {
       setShow(false);
