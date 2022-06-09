@@ -13,11 +13,12 @@ import IconRepost from "../../assets/icon/icon-repost.png";
 import IconShare from "../../assets/icon/icon-share.png";
 import IconMore from "../../assets/icon/icon-more.png";
 import IconSend from "../../assets/icon/icon-send-comment.png";
+import IconTag from "../../assets/icon/icon-tag.png";
 
 export default function CardPost() {
   return (
     <>
-      <div className="card-post shadow mb-3">
+      <div className="card-post shadow-sm mb-3">
         {/* Header */}
         <div className="header-card mb-3 px-3">
           <Row className="d-flex align-items-center " style={{ width: "100%" }}>
@@ -28,7 +29,7 @@ export default function CardPost() {
 
               <div className="" style={{ cursor: "pointer" }}>
                 <span className="d-block fs-5 fw-bold">Raditya Dika</span>
-                <span className="text-var-gray-dark post-time me-1">10 Menit yang lalu</span>
+                <span className="text-var-gray time-post me-2">10 menit lalu</span>
                 <span className="text-var-green fw-bold">Opini</span>
               </div>
 
@@ -41,6 +42,7 @@ export default function CardPost() {
         {/* Judul */}
         <div className="d-flex ">
           <h5 className="ms-3 fw-bold">Belajar Menjadi Manusia</h5>
+          <img src={IconTag} alt="tag" className="tag-person" />
         </div>
         {/* Image */}
         <div className="mt-2 w-100 ">
@@ -50,8 +52,8 @@ export default function CardPost() {
         <div className="body-post mt-3 px-3">
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam eveniet eaque nihil sapiente sed, officiis minima eligendi id perspiciatis quisquam dolore omnis ad nobis, ut doloribus, at cum iure deserunt. Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Mollitia, quae quia sint aut voluptatibus itaque quod ab sunt possimus nulla officia, impedit ex amet natus blanditiis laudantium. Corpo...
-            <span className="text-var-green fst-italic " style={{ cursor: "pointer" }}>
+            Mollitia, quae quia sint aut voluptatibus itaque quod ab sunt possimus nulla officia, impedit ex amet natus blanditiis laudantium. Corpo...&nbsp;&nbsp;&nbsp;
+            <span className="text-var-green fst-italic text-400" style={{ cursor: "pointer" }}>
               Selengkapnya
             </span>
           </p>

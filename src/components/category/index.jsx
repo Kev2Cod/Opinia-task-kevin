@@ -10,7 +10,7 @@ const Sidebar = () => {
   };
   return (
     <>
-      <form className="radio-button shadow" onChange={(e) => handleChange(e)}>
+      <form className="radio-button shadow-sm" onChange={(e) => handleChange(e)}>
         <div className="switch-field">
           <div>
             <input type="radio" id="semua" name="category" value="semua" />

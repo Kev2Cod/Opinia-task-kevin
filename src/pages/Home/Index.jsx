@@ -4,7 +4,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import "./Home.css";
 
 import ImgHero from "../../assets/image/hero.png";
-import ImgProfile from "../../assets/image/profile-2.jpg";
+import ImgProfile from "../../assets/image/profile-1.jpg";
 import IconStart from "../../assets/icon/icon-star.png";
 import ImgCamera from "../../assets/image/camera.png";
 import ImgCameraProfile from "../../assets/image/camera-profile.png";
@@ -43,7 +43,7 @@ export default function Home() {
                 <div style={{ position: "relative" }}>
                   {/* Status User */}
                   <div className="status-user">
-                    <Row className="text-center py-2 px-3 mt-1">
+                    <Row className="text-center py-2 px-3 mt-1 letter-spacing">
                       <Col sm={4}>
                         <span className="text-var-gray-dark">Postingan</span>
                         <span className="fw-bold mt-1">12</span>
@@ -61,7 +61,7 @@ export default function Home() {
 
                   {/* Data User */}
                   <div className="d-flex align-items-center">
-                    <span className="fs-3 fw-bold">Kevin Williams</span>
+                    <span className="fs-3 fw-bold letter-spacing">Kevin Williams</span>
                     <div className="d-inline ms-3 ">
                       <img src={IconStart} alt="star" className="ms-1" />
                       <img src={IconStart} alt="star" className="ms-1" />
@@ -71,7 +71,7 @@ export default function Home() {
                     </div>
                   </div>
 
-                  <div className="text-var-gray-dark">
+                  <div className="text-var-gray-dark mt-2">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi dolor atque facilis. Nisi molestias nulla nemo perspiciatis eos...</p>
                   </div>
                 </div>

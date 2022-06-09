@@ -53,13 +53,25 @@
   color: var(--blue)
 }
 
+.text-400{
+  font-weight: 500;
+}
+
+.letter-spacing{
+  letter-spacing: .5px;
+}
+
 
 body {
   background-color: var(--white) !important;
   margin: 0;
-  font-family: 'Roboto', sans-serif !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+*{
+  font-family: 'Roboto', sans-serif !important;
+
 }
 
 
