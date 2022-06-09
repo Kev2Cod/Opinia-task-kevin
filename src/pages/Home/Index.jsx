@@ -4,7 +4,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import "./Home.css";
 
 import ImgHero from "../../assets/image/hero.png";
-import ImgProfile from "../../assets/image/profile-1.jpg";
+import ImgProfile from "../../assets/image/profile-2.jpg";
 import IconStart from "../../assets/icon/icon-star.png";
 import ImgCamera from "../../assets/image/camera.png";
 import ImgCameraProfile from "../../assets/image/camera-profile.png";
@@ -23,7 +23,7 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <Container style={{ height: "10000px" }}>
+      <Container>
         <Features />
         <div className="bg-white shadow-sm mt-2">
           <img src={ImgHero} className="img-hero" alt="" />
@@ -31,28 +31,30 @@ export default function Home() {
             <Col md={8}>
               <div className="d-flex mt-3" style={{ position: "relative" }}>
                 {/* Profile */}
-                <div style={{ width: "60%" }} className="">
+                <div style={{ width: "32rem" }}>
                   <div className="d-flex justify-content-center container-profile">
-                    <img src={ImgProfile} className="img-profile" alt="" />
-                    <img src={ImgCameraProfile} className="profile-camera-icon" alt="" />
+                    <div className="container-image ">
+                      <img src={ImgProfile} className="img-profile" alt="" />
+                      <img src={ImgCameraProfile} className="profile-camera-icon" alt="" />
+                    </div>
                   </div>
                 </div>
 
                 <div style={{ position: "relative" }}>
                   {/* Status User */}
                   <div className="status-user">
-                    <Row className="text-center py-2 px-3">
+                    <Row className="text-center py-2 px-3 mt-1">
                       <Col sm={4}>
                         <span className="text-var-gray-dark">Postingan</span>
-                        <span className="fw-bold mt-2">12</span>
+                        <span className="fw-bold mt-1">12</span>
                       </Col>
                       <Col sm={4}>
                         <span className="text-var-gray-dark">Mengikuti</span>
-                        <span className="fw-bold mt-2">5</span>
+                        <span className="fw-bold mt-1">5</span>
                       </Col>
                       <Col sm={4}>
                         <span className="text-var-gray-dark">Pengikut</span>
-                        <span className="fw-bold mt-2">9</span>
+                        <span className="fw-bold mt-1">9</span>
                       </Col>
                     </Row>
                   </div>

@@ -2,14 +2,6 @@
     width: 100%;
 }
 
-.img-profile{
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    object-fit: cover;
-    object-position: cover;
-    border: 10px solid #FAFAFB;
-}
 
 .status-user{
     position: absolute;
@@ -41,7 +33,25 @@
 
 .container-profile{
     position: absolute;
-    top: -112px;
-    left: 25px;
+    top: -120px;
+    left: 6%;
+}
 
+
+.img-profile{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: cover;
+    border-radius: 50%;
+}
+
+.container-image{
+    background-color: rgb(250, 250, 250);
+    width: 200px;
+    height: 195px;
+    border-radius: 50%;
+    padding: 8px;
+
+    
 }

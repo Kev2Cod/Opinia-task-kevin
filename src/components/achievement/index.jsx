@@ -8,7 +8,7 @@ import "./achievement.css";
 export default function Achievement() {
   return (
     <>
-      <div className="card-achievement bg-white d-flex align-items-center rounded-3 shadow-sm">
+      <div className="card-achievement bg-white d-flex align-items-center rounded-3 shadow-sm" style={{ cursor: "pointer" }}>
         <Col md={8} className="d-flex align-items-center">
           <div className="text-center" style={{ height: "100%", width: "50px" }}>
             <img src={LogoAchievement} alt="" />
@@ -20,8 +20,8 @@ export default function Achievement() {
             <span className="text-var-gray">Klaim Hadiah</span>
           </div>
         </Col>
-        <Col md={4} className="d-flex justify-content-end me-5">
-          <img src={IconArrowRight} alt="" />
+        <Col md={4} className="d-flex justify-content-end ">
+          <img src={IconArrowRight} alt="" className="me-3" />
         </Col>
       </div>
     </>
