@@ -45,15 +45,15 @@ label:hover > .icon{
 .switch-field input:checked + label {
 	background-color: #05688E1A;
     font-weight: 500;
-    color: #05B1A1;
-
-
 }
 
 .switch-field input:checked + label > .icon{
 	background-color: #05B1A1;
     color: white;
     border: none;
+}
+.switch-field input:checked + label > span{
+    color: #05B1A1;
 }
 
 .switch-field span{

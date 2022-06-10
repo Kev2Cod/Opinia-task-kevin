@@ -26,6 +26,7 @@ import IconArrowLeft from "../../assets/icon/arrow-left.png";
 export default function Features() {
   const [scrollPosition, setScrollPosition] = useState(0);
   const [show, setShow] = useState(false);
+  const [showDropdown, setShowDropdown] = useState(false);
 
   const handleScroll = () => {
     const position = window.pageYOffset;
@@ -260,15 +261,17 @@ export default function Features() {
         return <h1>ini Polling</h1>;
       default:
         content = (
-          <div className={show ? "navigation" : "navigation hidden"}>
+          <div className={show ? `navigation ${showDropdown && "expand"}` : "navigation hidden"}>
             <ul className="menu no-bullets ">
               <li>
-                <div className="parent-dropdown shadow">
-                  <img src={IconPen} alt="icon" />
-                  <span>Buat Postingan</span>
+                <div className="parent-dropdown " onClick={() => setShowDropdown(!showDropdown)}>
+                  <input type="checkbox" id="parent" hidden />
+                  <label htmlFor="parent" className="parent-child">
+                    <img src={IconPen} alt="icon" />
+                    <span>Buat Postingan</span>
+                  </label>
                 </div>
-
-                <ul className="child-dropdown no-bullets d-grid ">
+                <ul className={` ${showDropdown ? "child-dropdown-open no-bullets d-grid" : "child-dropdown-close"}`}>
                   <li>
                     <div className="dropdown" onClick={() => handleOnClick("idea")}>
                       <img src={IconIdea} alt="icon" />
