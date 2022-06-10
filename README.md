@@ -8,6 +8,10 @@ Project ini dibangun dengan:
 Link Demo Opinia Frontend
 <a href="https://opinia-task-kevin.vercel.app/" target="blank">https://opinia-task-kevin.vercel.app/</a>
 
+### Demo:
+
+![](./demo.gif)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
